@@ -1,0 +1,37 @@
+.App {
+  margin: 2%;
+}
+
+.container {
+  width: 30%;
+  padding: 8px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.row {
+  margin: 1%;
+}
+
+.button {
+  padding: 8px;
+  border: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+}
+
+.button:disabled {
+  background-color: gray;
+  color: beige;
+}
+
+.button.default {
+  background-color: blue;
+  color: beige;
+}
+
+.button.report {
+  background-color: red;
+  color: beige;
+}
